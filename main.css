@@ -1,0 +1,50 @@
+*{
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ultilizando o Id para definir estilo de um elemento  */
+body{
+    font-family: monospace;
+    background: var(--bg);
+}
+
+ul{
+    font-family: Helvetica;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+#msg{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Tema Claro, Feita declaraçao do estilo*/
+.light-theme{
+    --bg: var(--green);
+    --fontColor: var(--black);
+    /* color: #000000;
+    background: #00ff00; */
+}
+
+/* Tema Escuro, Feita a declaraçao do estilo */
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
+
+/* Adicinado Constante a raiz da pagina  */
+:root{
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+
+
