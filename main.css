@@ -68,8 +68,8 @@ li{
     background-color: var(--btnBg) ;    
 }
 /* Definir a regra outline-style como nome voce elemina um contorno retangular  */
-.btn:focus{
+/* .btn:focus{
 outline-style: none;
-}
+} */
 
 

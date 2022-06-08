@@ -4,7 +4,7 @@
 const switcher = document.querySelector('.btn');
 
 // Adicionado um ouvinte e o manipulador do evento click
-switcher.addEventListener('Click',function(){
+switcher.addEventListener('Click', function() {
     document.body.classList.toggle('dark-theme')
 
 // Atualizando o rotulo do botao 
