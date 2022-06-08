@@ -27,18 +27,21 @@ li{
 
 /* Tema Claro, Feita declaraçao do estilo*/
 .light-theme{
-    /* --bg: var(--green);
-    --fontColor: var(--black); */
-    /* --btnFont-color: ;
-    --btnBg:  ; */
-    color: #000000;
-    background: #00ff00;
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnFont-color: var(--green);
+    --btnBg: var(--black) ; 
+    /* color: #000000;
+    background: #00ff00; */
 }
 
 /* Tema Escuro, Feita a declaraçao do estilo */
 .dark-theme{
     --bg: var(--black);
     --fontColor: var(--green);
+    --btnBg:var(--green);
+    --btnFont-color:var(--black);
+    
 }
 
 /* Adicinado Constante a raiz da pagina  */
@@ -48,10 +51,25 @@ li{
     --black: #000000;
 }
 
-/* .btn{
-    color: ;
-    background-color: ;
-} */
-
+/* Classe botao */
+.btn{
+    /* Determina a posiçao do botao */
+    position: absolute;
+    top: 30px; 
+    left: 250px;
+    /* Determina altura e tamanho  */
+    height: 80px;
+    width: 80px;
+    /* Determina Formato */
+    border: none;
+    border-radius: 50%;
+    /* Propriedades do background e fonte  */
+    color: var(--btnFont-color) ;
+    background-color: var(--btnBg) ;    
+}
+/* Definir a regra outline-style como nome voce elemina um contorno retangular  */
+.btn:focus{
+outline-style: none;
+}
 
 
