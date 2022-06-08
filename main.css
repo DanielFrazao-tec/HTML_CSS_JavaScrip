@@ -29,6 +29,8 @@ li{
 .light-theme{
     --bg: var(--green);
     --fontColor: var(--black);
+    /* --btnFont-color: ;
+    --btnBg:  ; */
     /* color: #000000;
     background: #00ff00; */
 }
@@ -45,6 +47,11 @@ li{
     --white: #ffffff;
     --black: #000000;
 }
+
+/* .btn{
+    color: ;
+    background-color: ;
+} */
 
 
 
