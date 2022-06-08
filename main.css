@@ -27,12 +27,12 @@ li{
 
 /* Tema Claro, Feita declaraçao do estilo*/
 .light-theme{
-    --bg: var(--green);
-    --fontColor: var(--black);
+    /* --bg: var(--green);
+    --fontColor: var(--black); */
     /* --btnFont-color: ;
     --btnBg:  ; */
-    /* color: #000000;
-    background: #00ff00; */
+    color: #000000;
+    background: #00ff00;
 }
 
 /* Tema Escuro, Feita a declaraçao do estilo */
