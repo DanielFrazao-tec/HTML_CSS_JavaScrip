@@ -3,19 +3,21 @@
 // Usando o documnet.querySelector para obter referencia do botao
 const switcher = document.querySelector('.btn');
 
-// Adicionado um ouvinte e o manipulador do evento click
-switcher.addEventListener('Click', function() {
+// // Adicionado um ouvinte e o manipulador do evento click
+switcher.addEventListener('click', function() {
     document.body.classList.toggle('dark-theme')
 
-// Atualizando o rotulo do botao 
+// // // Atualizando o rotulo do botao 
 var className = document.body.className;
+
 if(className == "light-theme"){
-    this.textContent = "Dart";
+    this.textContent = "Dark";
 }
 else{
-    this.textContent = "LIght"
+    this.textContent = "Light"
 }
 
 console.log('current class name:' + className);
+
 });
 

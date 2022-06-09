@@ -58,8 +58,8 @@ li{
     top: 30px; 
     left: 250px;
     /* Determina altura e tamanho  */
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     /* Determina Formato */
     border: none;
     border-radius: 50%;
@@ -68,8 +68,8 @@ li{
     background-color: var(--btnBg) ;    
 }
 /* Definir a regra outline-style como nome voce elemina um contorno retangular  */
-/* .btn:focus{
+.btn:focus{
 outline-style: none;
-} */
+}
 
 
